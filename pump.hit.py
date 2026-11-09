@@ -31,15 +31,8 @@ NC_POOL = {
 }
 
 # --- 3 IDs aus POOL: KOOP / NEUTRAL / POOK ---
-# ID_KOOP exakt wie vom User gestellt, 1 zu 1, kein Wort geaendert:
-# const ID_KOOP = { info() { return "KOOP-ID: Kooperation, Verbindung, Stabilität"; } };
-class ID_KOOP:
-    @staticmethod
-    def info():
-        return "KOOP‑ID: Kooperation, Verbindung, Stabilität"
-
 IDS = {
-    "KOOP": {"id": "KOOP-001", "name": "Kooperation", "status": "stabil", "verbindung": "aktiv", "info": ID_KOOP.info},
+    "KOOP": {"id": "KOOP-001", "name": "Kooperation", "status": "stabil", "verbindung": "aktiv"},
     "NEUTRAL": {"id": "NEUTRAL-001", "name": "Balance", "status": "ausgeglichen", "mitte": 0.5},
     "POOK": {"id": "POOK-001", "name": "Quelle", "status": "aktiv", "anker": "POOL"},
 }
