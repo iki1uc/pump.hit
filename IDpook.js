@@ -1,5 +1,5 @@
 const ID_POOK = {
     info() {
-        return "POOK‑ID: Pool‑Quelle, Datenanker, Stabilisationsachse";
+        return "POOK‑ID: pump.hit‑Quelle, Datenanker, Stabilisationsachse";
     }
 };
