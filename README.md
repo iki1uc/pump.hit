@@ -1,96 +1,53 @@
-# 🧩 POOL – Globaler Datenpool
+# pump.hit — README NEU — TXT geaendert
+# Alt Name: POOL (Zeugnis, bleibt)
+# Neu Name: pump.hit
+# Grund fuer Aenderung: Ich habe die ganze Zeit versucht, um den 9er-Raum rumzugehen.
+# Wahrheit: Ich bin OHNE Landung da. Ohne Flug. Sogar Schwarzes Loch rein und raus.
+# Also: Nicht drumrum. Drin.
 
-POOL ist der zentrale, globale Datenpool der gesamten AXO‑Architektur.  
-Er dient als **ANKER (Stabilisierungsachse)** und als **Datenquelle**, aus der alle Module lesen können.
+POOL IST NICHT DRUMRUM. POOL IST DRIN.
 
-POOL führt **keine Berechnungen** aus.  
-POOL ist **rein lesend, verwaltend, verteilend**.
+POOL ist der 9er-Raum selbst.
+Nicht der Weg drumrum. Nicht der Startpunkt davor. Nicht der Anker daneben.
+POOL ist 9. Du bist schon in 9. Du warst immer in 9.
 
----
+ALT (falsch):
+- POOL ist globaler Datenpool, Anker, Startpunkt, liest nur, verwaltet, verteilt.
+- POOL steht neben AXO, vor AXO, unter AXO.
 
-## 🎯 Zweck
+NEU (richtig):
+- POOL ist 9er-Raum. 9 unten, 3 oben, 41 Mitte, 81 Feld.
+- POOL ist Landung IN 9. Nicht Landung vor 9.
+- POOL ist OHNE Flug. Kein Flug noetig, weil du schon da bist.
+- POOL ist Schwarzes Loch rein UND raus. 0 = Loch, nutzbar. Rein = Fallen. Raus = Aufstehen. Beides in 1.
+- POOL erweitert sich immer oekonomisch, UNDER POOL. 1 bleibt 1. Sichten werden 3. Volumen bleibt 1.
 
-- Zentraler Speicherort für AXO‑Daten  
-- Bereitstellung von Q‑Pool, Vektor‑Pool und NC‑Pool  
-- Verwaltung von AXO‑IDs und AXO‑Operator‑Ergebnissen  
-- Stabilisierungsachse für NC‑Hub‑All  
-- Routing‑Quelle für DR  
-- Datenquelle für index.html und id.html
+WAS POOL TUT:
+- Haelt: Q-Pool (Qualitaet, Richtung, Laenge), Vektor-Pool (Achse, ID, Vektor, OrbitLink, TMP81), NC-Pool (Standort, Speicher, Routing)
+- Pumpt: pump.hit pumpt von unten, UNDER POOL, nicht OVER POOL.
+- Trifft: hit trifft Fixpunkt 41, Ort = Home Arbeit.
 
-POOL ist der **Startpunkt** der gesamten Datenarchitektur.
+REIHENFOLGE IN 9:
+1. sprung.py — Garde, springt zuerst. DROP -> VOID -> RISE -> ROOT.
+2. fall.py — Fallen + Aufstehen. FALLEN -> LOCH -> AUFSTEHEN -> STAND.
+3. energie.py — Wandel. SPRUNG + FALL -> WANDEL -> ERDE 81.
+4. kombinat.py — 3 in 1. 3 zurueck, ver-3telt: 3/3 = 1.
+5. pump.hit.py — POOL in Bewegung. Pumpe trifft.
 
----
+9ER-RAUM:
+- Du gehst nicht um 9 rum. Du landest IN 9.
+- Ohne Flug: Kein Flug noetig, weil 9 kein Ort weit weg ist. 9 ist Aufenthaltsort.
+- Schwarzes Loch rein: Fallen, 9 unten, 0 Loch, nutzbar.
+- Schwarzes Loch raus: Aufstehen, 3 oben, 41 Mitte, wieder stehen.
+- Rueckflug Garantie: Immer zurueck, immer hoch, immer in 9.
 
-## 📦 Struktur
+1 SATZ:
+POOL ist nicht drumrum. POOL ist drin. Landung IN 9, ohne Flug, Schwarzes Loch rein und raus. 1 Sache: Aufenthaltsort.
 
-Das Repository enthält:
+BILLY THE KID — HIT NOW:
+Billy the Kid zieht nicht, um drumrum zu schiessen. Er zieht, um zu treffen. 1 Schuss. 1 Hit. Jetzt.
+HIT NOW = 41 Mitte. Getroffen. Nicht drumrum. Drin.
 
-- **README.md** – Dokumentation  
-- **index.html** – Frontend‑Demo, zeigt POOL‑Daten  
-- **id.html** – Anzeige einzelner AXO‑IDs  
-- **pool-quelle-3.csv** – Definition der drei Kernpools
-
----
-
-## 📂 pool-quelle-3.csv
-
-Pool,Quelle,Zweck
-Q‑Pool,q81(v),"Qualität, Richtung, Länge"
-Vektor‑Pool,"ABC_Vektor, OrbitLink, TMP81","Achse, ID, Vektor"
-NC‑Pool,"NC, HDF_PATH, CACHE_UPDATE","Standort, Speicher, Routing"
-
-
-Diese drei Pools bilden die **Grundlage für AXO**.
-
----
-
-## 🔧 Verwendung in AXO
-
-POOL wird von folgenden Modulen genutzt:
-
-- **AXO_ID.js**  
-- **AXO_Operator.js**  
-- **AXO_LAGE_ORt.js**  
-- **AXO_Final.js**  
-- **NC‑Hub‑All**  
-- **DR**
-
-Beispiel:
-
-```js
-POOL.register("AXO", {
-  id: axo_id,
-  standort,
-  vektor,
-  orbit,
-  qualität,
-  richtung,
-  länge
-});
-🌐 index.html
-Zeigt die Inhalte des POOL‑Datenpools im Browser an.
-
-🧩 id.html
-Zeigt eine einzelne AXO‑ID als JSON‑Objekt.
-
-🚀 Installation
-bash
-git clone https://github.com/iki1uc/POOL.git
-cd POOL
-📄 Lizenz
-Dieses Projekt ist frei nutzbar.
-
-Code
-
----
-
-# ⭐ POOL ist jetzt **fertig**  
-Du hast jetzt:
-
-- **AXO fertig**  
-- **POOL fertig**  
-- **NC‑Hub‑All fertig**  
-- **DR fertig**  
-- **README.md fertig**  
-- **index.html + id.html kompatibel**
-
+)so( — u.me our so — du mich, unser, so
+Fallen + Aufstehen. Rueckflug Garantie.
+POOL UNDER. pump.hit UNDER POOL. Erweitert sich immer oekonomisch.
